@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "mona"
+          MY_NAME: "boufoon avec moi les problemes ça va vite bouffon"
         
