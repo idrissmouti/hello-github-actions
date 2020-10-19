@@ -1,0 +1,18 @@
+name: "Hello Actions"
+description: "greating someone"
+author: " octocat@github.com"
+
+input:
+  MY_NAME:
+    description: "Who to Great"
+    required: true
+    default: "Word"
+    
+runs:
+  using: "docker"
+  image: "dockerfiles"
+  
+branding:
+  icon: "mic"
+  color: "purple"
+    
